@@ -1,0 +1,266 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+/*navigation*/
+.navbar {
+  padding: 1em 0.5em;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin: .5em;
+  margin-left: 3em;
+  letter-spacing: 0.08em;
+  border-bottom: 10px solid red;
+}
+.black-bg{
+  background-color: black;
+  background-position: right;
+  margin: 0;
+  color: white;
+}
+.black-bg a[href] {
+  color: white;
+  text-decoration: none;
+}
+/*background picture*/
+.main-content{
+  background-image: url('http://www.tattoos-styles.com/wp-content/uploads/2016/02/Tattoo-Polynesian-Designs.jpg');
+  background-position: right;
+  background-size: 365px 100%;
+  min-height: 583px;
+  background-repeat: no-repeat;
+  overflow: hidden;;
+}
+/*homepage*/
+.typing-text {
+  margin-top: 0.55em;
+  margin-left: 1em;
+  font-size: 653%;
+  align-content: center;
+  height: 60px;
+  line-height: 60px;
+}
+.hello-block-red{
+  margin: 6px;
+  margin-left: 8em;
+  font-size: 260%;
+  align-content: center;
+  color: red;
+}
+.hello-block-black{
+  margin: -17px;
+  margin-left: 7em;
+  font-size: 244%;
+  font-style: italic;
+  align-content: center;
+}
+.hello-block-black a[href]{
+  color: #727272;
+  text-decoration: none;
+}
+/*projectslist*/
+.projects-contact-boxlist{
+  margin-top: 4em;
+  margin-left: 4em;
+  margin-right: 24em;
+  padding: 36px;
+  padding-left: 46px;
+  padding-right: 57px;
+  text-align: justify;
+  border: 7px;
+  border-style: dotted solid;
+  border-radius: 20px;
+  background-color: #fff4d4;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  height: 378px;
+  width: 715px;
+}
+.bottom-bar{
+  margin: 0;
+  padding: 2em;
+  background-color:#000000;
+  border-top: 10px solid red;
+}
+.bottom-bar imgit{
+  filter: invert(100%);
+}
+.submit-button{
+  font-family: 'Archivo Narrow', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+/*responsive design*/
+@media only screen and (orientation:landscape){
+  .main-content{
+    width: 100%;
+  }
+  .typing-text{
+    width: 100%;
+  }
+  .hello-block-red{
+    width: 100%;
+  }
+  .hello-block-black{
+    width: 100%;
+  }
+  .projects-contact-boxlist{
+    width:100%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .typing-text{
+    font-size: 245%;
+    align-content: center;
+    height: 60px;
+    line-height: 60px;
+    width: 30%;
+    margin-left: 1em;
+  }
+  .main-content{
+    background-position: right;
+    background-size: 95px 100%;
+    height: 383px;
+    background-repeat: no-repeat;
+    overflow: hidden;;
+  }
+  .hello-block-red{
+    margin-top: -27px;
+    font-size: 133%;
+    align-content: center;
+    height: 60px;
+    line-height: 60px;
+  }
+  .hello-block-black{
+    margin-top: -30px;
+    font-size: 144%;
+    font-style: italic;
+    align-content: center;
+    width: 55%;
+    margin-left: 1.2em;
+  }
+  .projects-contact-boxlist{
+    width:30%;
+    margin-top: 1em;
+    margin-left: 12px;
+    margin-right: 0em;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .typing-text{
+    font-size: 245%;
+    align-content: center;
+    height: 60px;
+    line-height: 60px;
+    width: 30%;
+    margin-left: 1em;
+  }
+  .main-content{
+    background-position: right;
+    background-size: 95px 100%;
+    height: 383px;
+    background-repeat: no-repeat;
+    overflow: hidden;;
+  }
+  .hello-block-red{
+    margin-top: -27px;
+    font-size: 133%;
+    align-content: center;
+    height: 60px;
+    line-height: 60px;
+  }
+  .hello-block-black{
+    margin-top: -30px;
+    font-size: 144%;
+    font-style: italic;
+    align-content: center;
+    width: 55%;
+    margin-left: 1.2em;
+  }
+  .projects-contact-boxlist{
+    width:30%;
+    margin-top: 1em;
+    margin-left: 12px;
+    margin-right: 0em;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .typing-text{
+    font-size: 245%;
+    align-content: center;
+    height: 60px;
+    line-height: 60px;
+    width: 30%;
+    margin-left: 1em;
+  }
+  .main-content{
+    background-position: right;
+    background-size: 125px 100%;
+    height: 383px;
+    background-repeat: no-repeat;
+    overflow: hidden;;
+  }
+  .hello-block-red{
+    margin-top: -27px;
+    font-size: 133%;
+    align-content: center;
+    height: 60px;
+    line-height: 60px;
+  }
+  .hello-block-black{
+    margin-top: -30px;
+    font-size: 144%;
+    font-style: italic;
+    align-content: center;
+    width: 55%;
+    margin-left: 1.2em;
+  }
+  .projects-contact-boxlist{
+    width:30%;
+    margin-top: 1em;
+    margin-left: 12px;
+    margin-right: 0em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .typing-text{
+    width: 30%;
+    margin-left: 1em;
+  }
+  .hello-block-red{
+    width: 55%;
+    margin-left: 1.2em;
+  }
+  .hello-block-black{
+    width: 55%;
+    margin-left: 1.2em;
+  }
+  .projects-contact-boxlist{
+    width:30%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .main-content{
+    width: 30%%;
+  }
+  .typing-text{
+    width: 30%;
+    margin-left: .6em;
+  }
+  .hello-block-red{
+    width: 55%;
+    margin-left: 3.2em;
+  }
+  .hello-block-black{
+    width: 55%;
+    margin-left: 3.2em;
+  }
+  .projects-contact-boxlist{
+    width:45%;
+  }
+}
